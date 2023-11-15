@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_icon"
+        android:padding="8dp"
+        android:contentDescription="@string/backbutton" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginStart="10sp"
+       android:layout_marginTop="10sp">
+
+       <TextView
+           android:id="@+id/tvUserID"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/id"
+           android:textSize="18sp"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/tvUserName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/name"
+           android:textSize="18sp"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/tvUserPhone"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:text="@string/phoneNumber"
+           android:textSize="18sp"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/tvUserEmail"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:text="@string/email"
+           android:textSize="18sp"
+           android:textStyle="bold"/>
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+    <string name="appname">ContactApp</string>
+    <string name="contactapp">ContactApp</string>
+    <string name="header">ContactApp</string>
+    <string name="backbutton">backButton</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="email">Email</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="l">L</string>
+    <string name="call">Call</string>
+    <string name="send_message">Send message</string>
+    <string name="send_email">Send email</string>
+    <string name="avatarFrame">avatar</string>
+</resources>
